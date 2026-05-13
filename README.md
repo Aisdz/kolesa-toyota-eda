@@ -93,7 +93,7 @@ jupyter notebook kolesa_scraped.ipynb
 ## 📁 Project Structure
 
 ```
-├── kolesa_scraped.ipynb   # Full pipeline: scraping + cleaning + EDA
+├── kolesa_scraping.ipynb   # Full pipeline: scraping + cleaning + EDA
 ├── toyota_data.csv        # Scraped and cleaned dataset (generated)
 └── README.md
 ```
