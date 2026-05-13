@@ -10,7 +10,7 @@ End-to-end pipeline: scraping Toyota car listings from [Kolesa.kz](https://koles
 
 ---
 
-## 📌 Project Overview
+## 📌 Project overview
 
 Kolesa.kz is Kazakhstan's largest car marketplace. This project scrapes 500+ pages of Toyota listings, builds a structured dataset, and performs exploratory data analysis to uncover pricing trends, popular models, and regional distribution.
 
@@ -59,20 +59,20 @@ Kolesa.kz (500+ pages)
 
 | Chart | Description |
 |---|---|
-| Price distribution | Histogram + KDE — how prices are spread |
-| Price vs Car Age | Scatter — does older mean cheaper? |
-| Engine Size vs Price | Scatter — bigger engine = higher price? |
-| Car Age distribution | Histogram — what years dominate the market |
-| Top 10 models by avg price | Bar chart — most expensive Toyota models |
-| Cars by year | Bar chart — which production years are most common |
-| Avg price by year | Line chart — price trend over manufacturing years |
-| Year × Price × Engine (Bubble) | Bubble chart — three variables at once |
-| Correlation heatmap | Seaborn heatmap — Price / Year / Engine_Liter |
-| Cars by city (Interactive map) | Plotly map — geographic distribution across Kazakhstan |
+| Price distribution | Histogram + KDE - how prices are spread |
+| Price vs Car Age | Scatter - does older mean cheaper? |
+| Engine Size vs Price | Scatter - bigger engine = higher price? |
+| Car Age distribution | Histogram - what years dominate the market |
+| Top 10 models by avg price | Bar chart - most expensive Toyota models |
+| Cars by year | Bar chart - which production years are most common |
+| Avg price by year | Line chart - price trend over manufacturing years |
+| Year × Price × Engine (Bubble) | Bubble chart - three variables at once |
+| Correlation heatmap | Seaborn heatmap - Price / Year / Engine_Liter |
+| Cars by city (Interactive map) | Plotly map - geographic distribution across Kazakhstan |
 
 ---
 
-##  How to Run
+##  How to run
 
 ### 1. Install dependencies
 
@@ -90,7 +90,7 @@ jupyter notebook kolesa_scraped.ipynb
 
 ---
 
-## 📁 Project Structure
+## 📁 Project structure
 
 ```
 ├── kolesa_scraping.ipynb   # Full pipeline: scraping + cleaning + EDA
