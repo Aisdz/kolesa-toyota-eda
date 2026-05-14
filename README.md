@@ -97,8 +97,8 @@ As a result, predictions are a reasonable estimate but not a precise valuation t
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/Aisdz/kolesa-toyota-eda
-cd kolesa-toyota-eda
+git clone https://github.com/Aisdz/kolesa-toyota-price-prediction
+cd kolesa-toyota-price-prediction
 ```
 
 ### 2. Install dependencies
@@ -137,4 +137,4 @@ Opens at `http://localhost:8501`
 └── README.md
 ```
 
-> `toyota_data.csv`, `*.pkl`, `*.json` are not tracked by git - generated locally by running the notebooks.
+> `*.pkl`, `*.json` are not tracked by git - generated locally by running the notebooks.
