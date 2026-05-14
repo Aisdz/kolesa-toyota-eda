@@ -18,7 +18,7 @@ End-to-end pipeline: scraping Toyota listings from [Kolesa.kz](https://kolesa.kz
 | Random Forest | 1,451,027 | 0.9412 |
 | **XGBoost** | **1,337,178** | **0.9498** |
 
-> Best model: **XGBoost** - mean prediction error ~1.3M KZT (~$2,700) on a 20% validation set.
+> Best model: **XGBoost** - mean prediction error ~1.3M KZT ($2,700) on a 20% validation set.
 
 ### Feature importance (XGBoost)
 
